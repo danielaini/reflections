@@ -12,12 +12,12 @@ What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-   Committing manually gives more flexibility to the user. Manual commits can be easier to understand, especially in git where they come with a message. Automatically committing may save changes that makes no sense and is therefore not the best option from a programmer's perspective.
+   Committing manually gives more flexibility to the user. Manual commits can be easier to understand, especially in git where they come with a message. This way a the user can choose to commit whenever there has been a logical change. Automatically committing may save changes that makes no sense (ex: in the middle of a line of code) and is therefore not the best option from a programmer's perspective.
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    Git is made for programming purposes where one modifies multiple files simultaneously. Each commit can be considered a restore point (if it works) in which all the files exists, even those not modified.
+    Git is made for programming purposes where one modifies multiple files simultaneously. Each commit can be considered a restore point (if it works) in which all the files exists, even those not modified. It makes finding bugs a whole lot easier if multiple files were modified.
 
 How can you use the commands git log and git diff to view the history of files?
 
@@ -30,6 +30,6 @@ could break something?
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Git seems like an efficient way to keep track of versions and changes.
+    Git seems like an efficient way to keep track of versions and changes when developing software.
 
 	
